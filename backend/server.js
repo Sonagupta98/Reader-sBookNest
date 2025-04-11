@@ -26,7 +26,7 @@ const __dirname = path.resolve();
 
 // Middlewares
 
-app.use(cors({ origin: "https://reader-sbooknest.onrender.com", credentials: true }));
+app.use(cors({ origin: "https://reader-sbooknest-1.onrender.com", credentials: true }));
 app.use(express.json({ limit: "20mb" }));
 app.use(cookieParser());
 
